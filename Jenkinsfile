@@ -65,7 +65,7 @@ pipeline {
             echo 'CI pipeline succeeded.'
         }
         failure {
-            mail to: 'your-email@example.com',
+            mail to: 'milindsahu1316@gmail.com',
                  subject: "Jenkins Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                  body: """The Jenkins CI pipeline failed.
 
