@@ -26,7 +26,7 @@ public class StudentServiceTest {
         boolean result = service.addStudent(s);
 
         assertTrue(result, "Adding valid student should return true");
-        assertEquals(99, service.getAllStudents().size(), "Student count should be 1");
+        assertEquals(1, service.getAllStudents().size(), "Student count should be 1");
     }
 
     @Test
